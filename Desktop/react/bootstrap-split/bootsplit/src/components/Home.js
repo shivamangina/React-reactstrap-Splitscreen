@@ -28,7 +28,10 @@ export default class Home extends Component {
                         placeholder=""
                       />
                     </FormGroup>
-                    <Button color="success">Search</Button>
+                    <div className="but">
+                  <Button color="success" style={{borderRadius: "35px"}}>Search</Button>
+                  </div>
+                 
                   </Form>
                 </div>
               </div>
@@ -70,7 +73,10 @@ export default class Home extends Component {
                       placeholder="Password"
                     />
                   </FormGroup>
-                  <Button color="success">Register</Button>
+                  <div className="but">
+                  <Button color="success" style={{borderRadius: "35px"}}>Register</Button>
+                  </div>
+                 
                 </Form>
               </div>
             </div>
