@@ -26,6 +26,7 @@ export default class Home extends Component {
                         name="search"
                         id="exampleEmail"
                         placeholder=""
+                        style={{borderRadius: "35px"}}
                       />
                     </FormGroup>
                     <div className="but">
